@@ -3,9 +3,9 @@ using System.IO;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.Extensions.Configuration;
-using MJIoT_EFCoreModel.Models;
+using MjIot.Storage.Models.EFCoreDb.Models;
 
-namespace MJIoT_EFCoreModel
+namespace MjIot.Storage.Models.EFCoreDb
 {
     public partial class MJIoTDbContext : DbContext
     {

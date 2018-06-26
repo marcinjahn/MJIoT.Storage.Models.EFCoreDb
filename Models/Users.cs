@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace MJIoT_EFCoreModel.Models
+namespace MjIot.Storage.Models.EFCoreDb.Models
 {
     public partial class Users
     {
