@@ -19,6 +19,7 @@ namespace MjIot.Storage.Models.EFCoreDb.Models
         public bool Uiconfigurable { get; set; }
         public bool IsListenerProperty { get; set; }
         public bool IsSenderProperty { get; set; }
+        public bool IsHistorized { get; set; }
 
         public DeviceTypes DeviceType { get; set; }
         public ICollection<Connections> ConnectionsListenerProperty { get; set; }
